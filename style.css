@@ -122,3 +122,28 @@ h3 {
     padding: 50px 0;
 }
 
+/* END OF SECOND SECTION */
+
+.container {
+    background-color: #E5E7EB;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote h2 {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote p {
+    align-self: flex-end;
+}
